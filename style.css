@@ -1,0 +1,230 @@
+
+
+/*  CSS RESET */
+*{
+  box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* style for the form element */
+.reg-form {
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  margin: 50px 0 50px 0;
+  background-color: rgb(202, 206, 207);
+}
+
+.login-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container form{
+  padding: 20px;
+  width: 50%;
+  background-color: rgb(202, 206, 207);
+  border: none;
+  border-radius: 5px;
+}
+
+.container{
+  padding: 20px;
+}
+
+/* style for the class congrat */
+.congrat{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.congrat div {
+  text-align: center;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(202, 208, 209);
+  padding: 100px;
+}
+
+
+/* style for the class container */
+.container,
+.login {
+  padding: 20px;
+
+}
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+select {
+  width: 15%;
+  margin: 5px 0 22px 0;
+  padding: 3px 10px 3px;
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+input[type="date"] {
+  width: 15%;
+  margin: 5px 0 22px 0;
+  padding: 3px 10px 3px;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+input[type="color"] {
+  width: 8%;
+  margin: 5px 0 22px 0;
+  padding: 2px 10px 2px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+h1, label {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+label{
+  font-size: 14px;
+}
+
+@media screen and (max-width: 620px) {
+ 
+  select {
+  width: 100px;
+  margin: 5px 0 22px 0;
+  padding: 3px 10px 3px;
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+  input[type="date"] {
+  width: 100px;
+  margin: 5px 0 22px 0;
+  padding: 3px 10px 3px;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+  input[type="color"] {
+  width: 50px;
+  margin: 5px 0 22px 0;
+  padding: 2px 10px 2px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+  label, p{
+    font-size: 14px;
+  }
+
+  h1{
+    font-size: 25px;
+  }
+
+  .login-container form{
+  width: 80%;
+}
+
+  .congrat div {
+  text-align: center;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(202, 208, 209);
+  padding: 50px;
+}
+
+  .congrat div h1{
+    font-size: 30px;
+  }
+
+  
+}
+
+input[type="date"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.registerbtn,
+.loginbtn {
+  width: 100%;
+  background-color: #04aa6d;
+  color: white;
+  opacity: 1;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 16px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+hr {
+  border: ipx solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn:hover,
+.loginbtn:hover {
+  opacity: 0.5;
+}
+
+.containersignin {
+  text-align: center;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 5px 0 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
